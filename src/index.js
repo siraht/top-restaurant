@@ -1,7 +1,6 @@
 console.log('Back at it, baby');
 
 const body = document.body;
-console.log(body);
 const content = document.querySelector('.content');
 const header = document.createElement('header');
 header.classList.add('nav');

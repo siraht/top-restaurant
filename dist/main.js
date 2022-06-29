@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("console.log('Back at it, baby');\n\nconst body = document.body;\nconsole.log(body);\nconst content = document.querySelector('.content');\nconst header = document.createElement('header');\nheader.classList.add('nav');\nconst footer = document.createElement('footer');\nfooter.classList.add('nav');\nconst main = document.createElement('main');\n\ncontent.appendChild(header);\ncontent.appendChild(main);\ncontent.appendChild(footer);\n\n\n//# sourceURL=webpack://top-restaurant/./src/index.js?");
+eval("console.log('Back at it, baby');\n\nconst body = document.body;\nconst content = document.querySelector('.content');\nconst header = document.createElement('header');\nheader.classList.add('nav');\nconst footer = document.createElement('footer');\nfooter.classList.add('nav');\nconst main = document.createElement('main');\n\ncontent.appendChild(header);\ncontent.appendChild(main);\ncontent.appendChild(footer);\n\n\n//# sourceURL=webpack://top-restaurant/./src/index.js?");
 
 /***/ })
 
