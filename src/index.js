@@ -5,7 +5,6 @@ import contact from './contact';
 import menu from "./menu";
 import './reset.css';
 import './style.css';
-import oysterimg from './oysterbar.jpg'
 
 console.log('Back at it, baby');
 
@@ -29,8 +28,6 @@ nav();
 home();
 
 // Tab switching
-// let homeBtn = document.querySelector
-
 homeBtn.addEventListener('click', () => {
     clearPage();
     home();
