@@ -1,0 +1,11 @@
+:root {
+    font-family: 'AvenirNext';
+}
+
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('./AvenirNextLTPro-Light.woff') format('woff'),
+        url('./AvenirNextLTPro-Thin.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
