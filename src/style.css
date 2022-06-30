@@ -1,4 +1,4 @@
-:root {
+* {
     font-family: 'AvenirNext';
 }
 
@@ -8,4 +8,57 @@
         url('./AvenirNextLTPro-Thin.woff') format('woff');
     font-weight: 600;
     font-style: normal;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.header {
+    height: 4rem;
+    background-color: rgba(245, 40, 145, 0.25);
+}
+
+.footer {
+    height: 6rem;
+    background-color: black;
+}
+
+.main {
+    height: 100%;
+    background-color: blanchedalmond;
+    padding: 9% 0% 0% 15%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+.textContainer {
+    width: max-content;
+}
+
+.textContainer .h4 {
+    width: 66%;
+}
+
+.textContainer img {
+    width: 38rem;
 }
