@@ -1,6 +1,8 @@
 import home from './home';
 import nav from './nav';
 import clearPage from './clearpage';
+import contact from './contact';
+import menu from "./menu";
 import './reset.css';
 import './style.css';
 import oysterimg from './oysterbar.jpg'
@@ -25,3 +27,19 @@ content.appendChild(footer);
 nav();
 // Home content creation
 home();
+
+// Tab switching
+// let homeBtn = document.querySelector
+
+homeBtn.addEventListener('click', () => {
+    clearPage();
+    home();
+});
+menuBtn.addEventListener('click', () => {
+    clearPage();
+    menu();
+});
+contactBtn.addEventListener('click', () => {
+    clearPage();
+    contact();
+});
