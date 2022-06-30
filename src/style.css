@@ -19,19 +19,41 @@
     overflow: hidden;
 }
 
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    border: 0px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
 .header {
     height: 4rem;
-    background-color: rgba(245, 40, 145, 0.25);
+    background-color: black;
 }
 
 .footer {
-    height: 6rem;
+    height: 2rem;
     background-color: black;
 }
 
 .main {
     height: 100%;
-    background-color: blanchedalmond;
+    background-color: white;
     padding: 9% 0% 0% 15%;
 }
 
@@ -49,7 +71,10 @@ h3 {
 
 h4 {
     font-size: 1.5rem;
+    white-space: pre-line;
 }
+
+p {}
 
 .textContainer {
     width: max-content;
@@ -61,4 +86,12 @@ h4 {
 
 .textContainer img {
     width: 38rem;
+}
+
+.menuContainer {
+    width: max-content;
+}
+
+.menuContainer .h4 {
+    line-height: 3rem;
 }

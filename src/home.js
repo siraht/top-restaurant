@@ -1,18 +1,7 @@
 import oysterimg from './oysterbar.jpg'
 
 let home = () => {
-    const body = document.body;
-    const content = document.querySelector('.content');
-    const header = document.createElement('header');
-    header.classList.add('nav', 'header');
-    const footer = document.createElement('footer');
-    footer.classList.add('nav', 'footer');
-    const main = document.createElement('main');
-    main.classList.add('main');
-
-    content.appendChild(header);
-    content.appendChild(main);
-    content.appendChild(footer);
+    let main = document.querySelector('main')
 
     const headingDiv = document.createElement('div');
     headingDiv.classList.add('headingDiv', 'textContainer');
@@ -32,7 +21,7 @@ let home = () => {
     headingDiv.appendChild(heading1);
     headingDiv.appendChild(heading2);
 
-    return home
+    return home;
 
 };
 
